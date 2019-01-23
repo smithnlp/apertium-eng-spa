@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
 
-<alphabet>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</alphabet>
+<alphabet>ABCDEFGHIJKLMNOPQRSTUVWXYZaábcdeééfghiíjklmnñoópqrstuúüvwxyz¿¡</alphabet>
 
 <sdefs>
    <sdef n="n"/>
@@ -18,12 +18,12 @@
 
 <pardefs>
 
-   <pardef n="gramophone__n">
+   <pardef n="tema__n">
       <e><p><l/><r><s n="n"/><s n="sg"/></r></p></e>
       <e><p><l>s</l><r><s n="n"/><s n="pl"/></r></p></e>
    </pardef>
 
-   <pardef n="s/ee__vblex">
+   <pardef n="ir__vblex">
       <e><p><l>ee</l><r>ee<s n="vblex"/><s n="pri"/></r></p></e>
       <e><p><l>ee</l><r>ee<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>ee</l><r>ee<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
@@ -34,12 +34,12 @@
    </pardef>
 
    <pardef n="prsubj__prn">
-      <e><p><l>I</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>We</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>You</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>Y'all</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>S/he</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>They</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>Yo</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>Nosotros</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>Usted</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>Ustedes</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>El</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>Ellos</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="pl"/></r></p></e>
    </pardef>
 
    <pardef n="dictionar/y__n">
