@@ -11,8 +11,7 @@
    </sdefs>
 
    <section id="main" type="standard">
-	<e><p><l>gramofon<s n="n"/></l><r>record<b/>player<s n="n"/></r></p></e>
-	<e><p><l>rečnik<s n="n"/></l><r>dictionary<s n="n"/></r></p></e>
-	<e><p><l>videti<s n="vblex"/></l><r>see<s n="vblex"/></r></p></e>
+	<e><p><l>tema<s n="n"/></l><r>theme<s n="n"/></r></p></e>
+	<e><p><l>ir<s n="vblex"/></l><r>go<s n="vblex"/></r></p></e>
    </section>
 </dictionary>
