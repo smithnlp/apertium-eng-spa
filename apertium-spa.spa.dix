@@ -16,10 +16,21 @@
    <sdef n="prn"/>
    <sdef n="subj"/>
    <sdef n="obj"/>
+   <sdef n="art"/>
+   <sdef n="fem"/>
+   <sdef n="masc"/>
    <sdef n="pre_cons"/>
 </sdefs>
 
 <pardefs>
+
+   <pardef n="un/__art">
+      <e><p><l/><r><s n="art"/><s n="sg"/><s n="masc"/><s n="pre_cons"/></r></p></e>
+      <e><p><l>a</l><r><s n="art"/><s n="sg"/><s n="fem"/></r></p></e>
+      <e><p><l>o</l><r><s n="art"/><s n="sg"/><s n="masc"/></r></p></e>
+      <e><p><l>as</l><r><s n="art"/><s n="pl"/><s n="fem"/></r></p></e>
+      <e><p><l>os</l><r><s n="art"/><s n="pl"/><s n="masc"/></r></p></e>
+   </pardef>
 
    <pardef n="preposition">
       <e><p><l/><r><s n="prep"/></r></p></e>
@@ -76,12 +87,15 @@
    <e lm="ir"><i/><par n="ir__vblex"/></e>
    <e lm="personal subject pronouns"><i/><par n="prsubj__prn"/></e>
    <e lm="tema"><i>tema</i><par n="tema__n"/></e>
+   <e lm="libre"><i>libre</i><par n="tema__n"/></e>
+   <e lm="casa"><i>casa</i><par n="tema__n"/></e>
    <e lm="hospital"><i>hospital</i><par n="hospital__n"/></e>
    <e lm="a"><i>a</i><par n="a/__prep"/></e>
    <e lm="por"><i>por</i><par n="preposition"/></e>
    <e lm="con"><i>con</i><par n="preposition"/></e>
    <e lm="de"><i>de</i><par n="preposition"/></e>
    <e lm="comprar"><i>compr</i><par n="compr/__vblex"/></e>
+   <e lm="un"><i>un</i><par n="un/__art"/></e>
 
 </section>
 

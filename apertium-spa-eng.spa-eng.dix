@@ -11,16 +11,20 @@
      <sdef n="p2"/>
      <sdef n="p3"/>
      <sdef n="prep"/>
+     <sdef n="art"/>
    </sdefs>
 
    <section id="main" type="standard">
 	<e><p><l>tema<s n="n"/></l><r>theme<s n="n"/></r></p></e>
+	<e><p><l>libre<s n="n"/></l><r>book<s n="n"/></r></p></e>
+	<e><p><l>casa<s n="n"/></l><r>house<s n="n"/></r></p></e>
 	<e><p><l>hospital<s n="n"/></l><r>hospital<s n="n"/></r></p></e>
 	<e><p><l>ir<s n="vblex"/></l><r>go<s n="vblex"/></r></p></e>
 	<e><p><l>con<s n="prep"/></l><r>with<s n="prep"/></r></p></e>
 	<e><p><l>por<s n="prep"/></l><r>for<s n="prep"/></r></p></e>
 	<e><p><l>a<s n="prep"/></l><r>to<s n="prep"/></r></p></e>
 	<e><p><l>de<s n="prep"/></l><r>of<s n="prep"/></r></p></e>
+	<e><p><l>un<s n="art"/></l><r>a<s n="art"/></r></p></e>
 	<e><p><l>comprar<s n="vblex"/></l><r>buy<s n="vblex"/></r></p></e>
    </section>
 </dictionary>

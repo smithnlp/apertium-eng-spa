@@ -16,9 +16,19 @@
    <sdef n="prn"/>
    <sdef n="subj"/>
    <sdef n="obj"/>
+   <sdef n="art"/>
+   <sdef n="fem"/>
+   <sdef n="masc"/>
+   <sdef n="pre_cons"/>
 </sdefs>
 
 <pardefs>
+
+   <pardef n="a/__art">
+      <e><p><l></l><r>a<s n="art"/><s n="pre_cons"/></r></p></e>
+      <e><p><l>n</l><r>a<s n="art"/></r></p></e>
+      <e><p><l>some</l><r><s n="art"/><s n="pl"/></r></p></e>
+   </pardef>
 
    <pardef n="preposition">
       <e><p><l/><r><s n="prep"/></r></p></e>
@@ -78,6 +88,8 @@
 <section id="main" type="standard">
 
    <e lm="theme"><i>theme</i><par n="theme__n"/></e>
+   <e lm="book"><i>book</i><par n="theme__n"/></e>
+   <e lm="house"><i>house</i><par n="theme__n"/></e>
    <e lm="hospital"><i>hospital</i><par n="theme__n"/></e>
    <e lm="go"><i>go</i><par n="go__vblex"/></e>
    <e lm="do"><i>do</i><par n="go__vblex"/></e>
@@ -90,6 +102,7 @@
    <e lm="for"><i>for</i><par n="preposition"/></e>
    <e lm="with"><i>with</i><par n="preposition"/></e>
    <e lm="of"><i>of</i><par n="preposition"/></e>
+   <e lm="a"><i>a</i><par n="a/__art"/></e>
 
 </section>
 
