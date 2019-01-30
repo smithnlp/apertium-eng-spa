@@ -15,10 +15,15 @@
    <sdef n="pri"/>
    <sdef n="prn"/>
    <sdef n="subj"/>
+   <sdef n="obj"/>
    <sdef n="pre_cons"/>
 </sdefs>
 
 <pardefs>
+
+   <pardef n="preposition">
+      <e><p><l/><r><s n="prep"/></r></p></e>
+   </pardef>
 
    <pardef n="a/__prep">
       <e><p><l/><r><s n="prep"/></r></p></e>
@@ -45,6 +50,16 @@
       <e><p><l>van</l><r>ir<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
    </pardef>
 
+   <pardef n="compr/__vblex">
+      <e><p><l>ar</l><r>ar<s n="vblex"/><s n="pri"/></r></p></e>
+      <e><p><l>o</l><r>ar<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>amos</l><r>ar<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>as</l><r>ar<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>a</l><r>ar<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>a</l><r>ar<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>an</l><r>ar<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+   </pardef>
+
    <pardef n="prsubj__prn">
       <e><p><l>Yo</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>Nosotros</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="pl"/></r></p></e>
@@ -63,6 +78,10 @@
    <e lm="tema"><i>tema</i><par n="tema__n"/></e>
    <e lm="hospital"><i>hospital</i><par n="hospital__n"/></e>
    <e lm="a"><i>a</i><par n="a/__prep"/></e>
+   <e lm="por"><i>por</i><par n="preposition"/></e>
+   <e lm="con"><i>con</i><par n="preposition"/></e>
+   <e lm="de"><i>de</i><par n="preposition"/></e>
+   <e lm="comprar"><i>compr</i><par n="compr/__vblex"/></e>
 
 </section>
 

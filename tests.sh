@@ -1,5 +1,5 @@
-declare -a sentences=("vas por algo"
-		      "Mira a la tema"
+declare -a sentences=("vas a comprar algo"
+		      "Mira a la tema de hoy"
 		      "voy al hospital"
 		      "va con El"
 		      "Hay unos hospitales")

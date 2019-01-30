@@ -15,6 +15,7 @@
    <sdef n="pri"/>
    <sdef n="prn"/>
    <sdef n="subj"/>
+   <sdef n="obj"/>
 </sdefs>
 
 <pardefs>
@@ -38,6 +39,16 @@
       <e><p><l>go</l><r>go<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
    </pardef>
 
+   <pardef n="b/uy__vblex">
+      <e><p><l>uy</l><r>uy<s n="vblex"/><s n="pri"/></r></p></e>
+      <e><p><l>uy</l><r>uy<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>uy</l><r>uy<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>uy</l><r>uy<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>uy</l><r>uy<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>uys</l><r>uy<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>uy</l><r>uy<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+   </pardef>
+
    <pardef n="prsubj__prn">
       <e><p><l>I</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>We</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="pl"/></r></p></e>
@@ -45,6 +56,16 @@
       <e><p><l>You</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>S/he</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>They</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="pl"/></r></p></e>
+   </pardef>
+
+   <pardef n="probj__prn">
+      <e><p><l>me</l><r>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>us</l><r>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>you</l><r>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>you</l><r>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>her</l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>him</l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>them</l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="pl"/></r></p></e>
    </pardef>
 
    <pardef n="dictionar/y__n">
@@ -60,11 +81,15 @@
    <e lm="hospital"><i>hospital</i><par n="theme__n"/></e>
    <e lm="go"><i>go</i><par n="go__vblex"/></e>
    <e lm="do"><i>do</i><par n="go__vblex"/></e>
+   <e lm="buy"><i>b</i><par n="b/uy__vblex"/></e>
    <e lm="personal subject pronouns"><i/><par n="prsubj__prn"/></e>
+   <e lm="personal object pronouns"><i/><par n="probj__prn"/></e>
    <e lm="dictionary"><i>dictionar</i><par n="dictionar/y__n"/></e>
    <e lm="to"><i>to</i><par n="preposition"/></e>
    <e lm="on"><i>on</i><par n="preposition"/></e>
    <e lm="for"><i>for</i><par n="preposition"/></e>
+   <e lm="with"><i>with</i><par n="preposition"/></e>
+   <e lm="of"><i>of</i><par n="preposition"/></e>
 
 </section>
 
