@@ -24,13 +24,13 @@
    </pardef>
 
    <pardef n="go__vblex">
-      <e><p><l>to go</l><r>ee<s n="vblex"/><s n="pri"/></r></p></e>
-      <e><p><l>go</l><r>ee<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>go</l><r>ee<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>go</l><r>ee<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>go</l><r>ee<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>goes</l><r>ee<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>go</l><r>ee<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>to go</l><r>go<s n="vblex"/><s n="pri"/></r></p></e>
+      <e><p><l>go</l><r>go<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>go</l><r>go<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>go</l><r>go<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>go</l><r>go<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>goes</l><r>go<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>go</l><r>go<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
    </pardef>
 
    <pardef n="prsubj__prn">
@@ -51,9 +51,9 @@
 
 <section id="main" type="standard">
 
-   <e lm="record player"><i>record<b/>player</i><par n="gramophone__n"/></e>
    <e lm="theme"><i>theme</i><par n="theme__n"/></e>
    <e lm="go"><i>go</i><par n="go__vblex"/></e>
+   <e lm="do"><i>do</i><par n="go__vblex"/></e>
    <e lm="personal subject pronouns"><i/><par n="prsubj__prn"/></e>
    <e lm="dictionary"><i>dictionar</i><par n="dictionar/y__n"/></e>
 

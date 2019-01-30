@@ -24,38 +24,31 @@
    </pardef>
 
    <pardef n="ir__vblex">
-      <e><p><l>ee</l><r>ee<s n="vblex"/><s n="pri"/></r></p></e>
-      <e><p><l>ee</l><r>ee<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>ee</l><r>ee<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>ee</l><r>ee<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>ee</l><r>ee<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>ees</l><r>ee<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>ee</l><r>ee<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>ir</l><r>ir<s n="vblex"/><s n="pri"/></r></p></e>
+      <e><p><l>voy</l><r>ir<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>vamos</l><r>ir<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>vas</l><r>ir<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>va</l><r>ir<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>va</l><r>ir<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>van</l><r>ir<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
    </pardef>
 
    <pardef n="prsubj__prn">
       <e><p><l>Yo</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>Nosotros</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>Usted</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>Tu</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>Ustedes</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>El</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>Ellos</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="pl"/></r></p></e>
-   </pardef>
-
-   <pardef n="dictionar/y__n">
-      <e><p><l>y</l><r>y<s n="n"/><s n="sg"/></r></p></e>
-      <e><p><l>ies</l><r>y<s n="n"/><s n="pl"/></r></p></e>
    </pardef>
 
 </pardefs>
 
 <section id="main" type="standard">
 
-   <e lm="record player"><i>record<b/>player</i><par n="gramophone__n"/></e>
-   <e lm="gramophone"><i>gramophone</i><par n="gramophone__n"/></e>
-   <e lm="see"><i>s</i><par n="s/ee__vblex"/></e>
+   <e lm="ir"><i/><par n="ir__vblex"/></e>
    <e lm="personal subject pronouns"><i/><par n="prsubj__prn"/></e>
-   <e lm="dictionary"><i>dictionar</i><par n="dictionar/y__n"/></e>
+   <e lm="tema"><i>tema</i><par n="tema__n"/></e>
 
 </section>
 
