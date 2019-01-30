@@ -4,6 +4,7 @@
 <alphabet>ABCDEFGHIJKLMNOPQRSTUVWXYZaábcdeééfghiíjklmnñoópqrstuúüvwxyz¿¡</alphabet>
 
 <sdefs>
+   <sdef n="prep"/>
    <sdef n="n"/>
    <sdef n="sg"/>
    <sdef n="pl"/>
@@ -14,13 +15,24 @@
    <sdef n="pri"/>
    <sdef n="prn"/>
    <sdef n="subj"/>
+   <sdef n="pre_cons"/>
 </sdefs>
 
 <pardefs>
 
+   <pardef n="a/__prep">
+      <e><p><l/><r><s n="prep"/></r></p></e>
+      <e><p><l>l</l><r><s n="prep"/><s n="pre_cons"/></r></p></e>
+   </pardef>
+
    <pardef n="tema__n">
       <e><p><l/><r><s n="n"/><s n="sg"/></r></p></e>
       <e><p><l>s</l><r><s n="n"/><s n="pl"/></r></p></e>
+   </pardef>
+
+   <pardef n="hospital__n">
+      <e><p><l/><r><s n="n"/><s n="sg"/></r></p></e>
+      <e><p><l>es</l><r><s n="n"/><s n="pl"/></r></p></e>
    </pardef>
 
    <pardef n="ir__vblex">
@@ -49,6 +61,8 @@
    <e lm="ir"><i/><par n="ir__vblex"/></e>
    <e lm="personal subject pronouns"><i/><par n="prsubj__prn"/></e>
    <e lm="tema"><i>tema</i><par n="tema__n"/></e>
+   <e lm="hospital"><i>hospital</i><par n="hospital__n"/></e>
+   <e lm="a"><i>a</i><par n="a/__prep"/></e>
 
 </section>
 

@@ -1,7 +1,8 @@
-declare -a sentences=("Tu vas"
+declare -a sentences=("vas por algo"
 		      "Mira a la tema"
-		      "voy al cine"
-		      "Ella va")
+		      "voy al hospital"
+		      "va con El"
+		      "Hay unos hospitales")
 
 
 for sent in "${sentences[@]}"

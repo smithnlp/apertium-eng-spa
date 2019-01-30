@@ -4,6 +4,7 @@
 <alphabet>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</alphabet>
 
 <sdefs>
+   <sdef n="prep"/>
    <sdef n="n"/>
    <sdef n="sg"/>
    <sdef n="pl"/>
@@ -17,6 +18,10 @@
 </sdefs>
 
 <pardefs>
+
+   <pardef n="preposition">
+      <e><p><l/><r><s n="prep"/></r></p></e>
+   </pardef>
 
    <pardef n="theme__n">
       <e><p><l/><r><s n="n"/><s n="sg"/></r></p></e>
@@ -37,7 +42,7 @@
       <e><p><l>I</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>We</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>You</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>Y'all</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>You</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>S/he</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>They</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="pl"/></r></p></e>
    </pardef>
@@ -52,10 +57,14 @@
 <section id="main" type="standard">
 
    <e lm="theme"><i>theme</i><par n="theme__n"/></e>
+   <e lm="hospital"><i>hospital</i><par n="theme__n"/></e>
    <e lm="go"><i>go</i><par n="go__vblex"/></e>
    <e lm="do"><i>do</i><par n="go__vblex"/></e>
    <e lm="personal subject pronouns"><i/><par n="prsubj__prn"/></e>
    <e lm="dictionary"><i>dictionar</i><par n="dictionar/y__n"/></e>
+   <e lm="to"><i>to</i><par n="preposition"/></e>
+   <e lm="on"><i>on</i><par n="preposition"/></e>
+   <e lm="for"><i>for</i><par n="preposition"/></e>
 
 </section>
 
